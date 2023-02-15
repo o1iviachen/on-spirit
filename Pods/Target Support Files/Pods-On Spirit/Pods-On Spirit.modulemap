@@ -1,0 +1,6 @@
+framework module Pods_On_Spirit {
+  umbrella header "Pods-On Spirit-umbrella.h"
+
+  export *
+  module * { export * }
+}

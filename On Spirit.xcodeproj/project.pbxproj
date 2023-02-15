@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C68FC6299AEC0F0019023A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C68FC5299AEC0F0019023A /* AppDelegate.swift */; };
+		58C68FC8299AEC0F0019023A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C68FC7299AEC0F0019023A /* SceneDelegate.swift */; };
+		58C68FCA299AEC0F0019023A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C68FC9299AEC0F0019023A /* ViewController.swift */; };
+		58C68FCD299AEC0F0019023A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C68FCB299AEC0F0019023A /* Main.storyboard */; };
+		58C68FD0299AEC0F0019023A /* On_Spirit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58C68FCE299AEC0F0019023A /* On_Spirit.xcdatamodeld */; };
+		58C68FD2299AEC110019023A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C68FD1299AEC110019023A /* Assets.xcassets */; };
+		58C68FD5299AEC110019023A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C68FD3299AEC110019023A /* LaunchScreen.storyboard */; };
+		58C68FDD299AED110019023A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58C68FDC299AED100019023A /* GoogleService-Info.plist */; };
+		82E9E6C3B9F8BB461F42A987 /* Pods_On_Spirit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AEBC654D13030C4BBB456C /* Pods_On_Spirit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F45A73BF4B59EF599AA9BF /* Pods-On Spirit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On Spirit.release.xcconfig"; path = "Target Support Files/Pods-On Spirit/Pods-On Spirit.release.xcconfig"; sourceTree = "<group>"; };
+		51AEBC654D13030C4BBB456C /* Pods_On_Spirit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On_Spirit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C68FC2299AEC0F0019023A /* On Spirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On Spirit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C68FC5299AEC0F0019023A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58C68FC7299AEC0F0019023A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58C68FC9299AEC0F0019023A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58C68FCC299AEC0F0019023A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58C68FCF299AEC0F0019023A /* On_Spirit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = On_Spirit.xcdatamodel; sourceTree = "<group>"; };
+		58C68FD1299AEC110019023A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C68FD4299AEC110019023A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58C68FD6299AEC110019023A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C68FDC299AED100019023A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B73D7F23361A7BAB9893675D /* Pods-On Spirit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On Spirit.debug.xcconfig"; path = "Target Support Files/Pods-On Spirit/Pods-On Spirit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58C68FBF299AEC0F0019023A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E9E6C3B9F8BB461F42A987 /* Pods_On_Spirit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1358453B3EFE78DFCCFE74C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51AEBC654D13030C4BBB456C /* Pods_On_Spirit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58C68FB9299AEC0F0019023A = {
+			isa = PBXGroup;
+			children = (
+				58C68FC4299AEC0F0019023A /* On Spirit */,
+				58C68FC3299AEC0F0019023A /* Products */,
+				931136B102413460979A0E39 /* Pods */,
+				1358453B3EFE78DFCCFE74C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58C68FC3299AEC0F0019023A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C68FC2299AEC0F0019023A /* On Spirit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C68FC4299AEC0F0019023A /* On Spirit */ = {
+			isa = PBXGroup;
+			children = (
+				58C68FC5299AEC0F0019023A /* AppDelegate.swift */,
+				58C68FC7299AEC0F0019023A /* SceneDelegate.swift */,
+				58C68FC9299AEC0F0019023A /* ViewController.swift */,
+				58C68FCB299AEC0F0019023A /* Main.storyboard */,
+				58C68FD1299AEC110019023A /* Assets.xcassets */,
+				58C68FD3299AEC110019023A /* LaunchScreen.storyboard */,
+				58C68FD6299AEC110019023A /* Info.plist */,
+				58C68FDC299AED100019023A /* GoogleService-Info.plist */,
+				58C68FCE299AEC0F0019023A /* On_Spirit.xcdatamodeld */,
+			);
+			path = "On Spirit";
+			sourceTree = "<group>";
+		};
+		931136B102413460979A0E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B73D7F23361A7BAB9893675D /* Pods-On Spirit.debug.xcconfig */,
+				00F45A73BF4B59EF599AA9BF /* Pods-On Spirit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58C68FC1299AEC0F0019023A /* On Spirit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C68FD9299AEC110019023A /* Build configuration list for PBXNativeTarget "On Spirit" */;
+			buildPhases = (
+				B64C41D89A6157EC74485154 /* [CP] Check Pods Manifest.lock */,
+				58C68FBE299AEC0F0019023A /* Sources */,
+				58C68FBF299AEC0F0019023A /* Frameworks */,
+				58C68FC0299AEC0F0019023A /* Resources */,
+				B2FF66F3E13BD124D614362D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "On Spirit";
+			productName = "On Spirit";
+			productReference = 58C68FC2299AEC0F0019023A /* On Spirit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C68FBA299AEC0F0019023A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					58C68FC1299AEC0F0019023A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 58C68FBD299AEC0F0019023A /* Build configuration list for PBXProject "On Spirit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C68FB9299AEC0F0019023A;
+			productRefGroup = 58C68FC3299AEC0F0019023A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C68FC1299AEC0F0019023A /* On Spirit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58C68FC0299AEC0F0019023A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C68FD5299AEC110019023A /* LaunchScreen.storyboard in Resources */,
+				58C68FD2299AEC110019023A /* Assets.xcassets in Resources */,
+				58C68FCD299AEC0F0019023A /* Main.storyboard in Resources */,
+				58C68FDD299AED110019023A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2FF66F3E13BD124D614362D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-On Spirit/Pods-On Spirit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-On Spirit/Pods-On Spirit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-On Spirit/Pods-On Spirit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64C41D89A6157EC74485154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-On Spirit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C68FBE299AEC0F0019023A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C68FCA299AEC0F0019023A /* ViewController.swift in Sources */,
+				58C68FD0299AEC0F0019023A /* On_Spirit.xcdatamodeld in Sources */,
+				58C68FC6299AEC0F0019023A /* AppDelegate.swift in Sources */,
+				58C68FC8299AEC0F0019023A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58C68FCB299AEC0F0019023A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C68FCC299AEC0F0019023A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58C68FD3299AEC110019023A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C68FD4299AEC110019023A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58C68FD7299AEC110019023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58C68FD8299AEC110019023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C68FDA299AEC110019023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73D7F23361A7BAB9893675D /* Pods-On Spirit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CMVBFM2BQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "On Spirit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliviachen.On-Spirit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C68FDB299AEC110019023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F45A73BF4B59EF599AA9BF /* Pods-On Spirit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CMVBFM2BQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "On Spirit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliviachen.On-Spirit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58C68FBD299AEC0F0019023A /* Build configuration list for PBXProject "On Spirit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C68FD7299AEC110019023A /* Debug */,
+				58C68FD8299AEC110019023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C68FD9299AEC110019023A /* Build configuration list for PBXNativeTarget "On Spirit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C68FDA299AEC110019023A /* Debug */,
+				58C68FDB299AEC110019023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58C68FCE299AEC0F0019023A /* On_Spirit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58C68FCF299AEC0F0019023A /* On_Spirit.xcdatamodel */,
+			);
+			currentVersion = 58C68FCF299AEC0F0019023A /* On_Spirit.xcdatamodel */;
+			path = On_Spirit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58C68FBA299AEC0F0019023A /* Project object */;
+}
